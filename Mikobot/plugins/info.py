@@ -194,7 +194,7 @@ async def info(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 @support_plus
 async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    stats = "📊 <b>Yae Miko Bot's Statistics:</b>\n\n" + "\n".join(
+    stats = "📊 <b>MBV Bot's Statistics:</b>\n\n" + "\n".join(
         [mod.__stats__() for mod in STATS]
     )
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
@@ -202,7 +202,7 @@ async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [
             InlineKeyboardButton(
-                "㊋ Infamous • Hydra", url="https://t.me/Infamous_Hydra"
+                "㊋ 𝗠𝗔𝗠𝗕𝗔 • 𝗠𝗕𝗩", url="https://t.me/MBV_NETWORK"
             ),
         ]
     ]
