@@ -228,7 +228,7 @@ async def extra_command_handlered(update: Update, context: ContextTypes.DEFAULT_
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text(
-        "𝙎𝙚𝙡𝙚𝙘𝙩 𝙩𝙝𝙚 [𝙨𝙚𝙘𝙩𝙞𝙤𝙣](https://telegra.ph/file/8c092f4e9d303f9497c83.jpg) 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙤𝙥𝙚𝙣",
+        "𝙎𝙚𝙡𝙚𝙘𝙩 𝙩𝙝𝙚 [𝙨𝙚𝙘𝙩𝙞𝙤𝙣](http://ibb.co/pQx25CC) 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙤𝙥𝙚𝙣",
         reply_markup=reply_markup,
         parse_mode="Markdown",
     )
@@ -239,7 +239,7 @@ async def extra_command_callback(update: Update, context: ContextTypes.DEFAULT_T
     if query.data == "extra_command_handler":
         await query.answer()  # Use 'await' for asynchronous calls
         await query.message.edit_text(
-            "𝙎𝙚𝙡𝙚𝙘𝙩 𝙩𝙝𝙚 [𝙨𝙚𝙘𝙩𝙞𝙤𝙣](https://telegra.ph/file/8c092f4e9d303f9497c83.jpg) 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙤𝙥𝙚𝙣",
+            "𝙎𝙚𝙡𝙚𝙘𝙩 𝙩𝙝𝙚 [𝙨𝙚𝙘𝙩𝙞𝙤𝙣](http://ibb.co/j5XhNcZ) 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙤𝙥𝙚𝙣",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -273,7 +273,7 @@ async def ai_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text(
-        "🧠 *Here are the options for* [𝗬𝗔𝗘 𝗠𝗜𝗞𝗢](https://telegra.ph/file/ed2d9c3693cacc9b0464e.jpg):",
+        "🧠 *Here are the options for* [𝗠𝗕𝗩 𝗕𝗢𝗧](http://ibb.co/HGdhV65):",
         reply_markup=reply_markup,
         parse_mode="Markdown",
     )
@@ -284,7 +284,7 @@ async def ai_command_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     if query.data == "ai_command_handler":
         await query.answer()
         await query.message.edit_text(
-            "🧠 *Here are the options for* [𝗬𝗔𝗘 𝗠𝗜𝗞𝗢](https://telegra.ph/file/ed2d9c3693cacc9b0464e.jpg):",
+            "🧠 *Here are the options for* [𝗠𝗕𝗩 𝗕𝗢𝗧](http://ibb.co/HGdhV65):",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -309,7 +309,7 @@ async def ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     if query.data == "ai_handler":
         await query.answer()
         await query.message.edit_text(
-            "[𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝘁 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝘀](https://telegra.ph/file/01a2e0cd1b9d03808c546.jpg):\n\n"
+            "[𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝘁 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝘀](http://ibb.co/HGdhV65):\n\n"
             "All Commands:\n"
             "➽ /askgpt <write query>: A chatbot using GPT for responding to user queries.\n\n"
             "➽ /palm <write prompt>: Performs a Palm search using a chatbot.\n\n"
@@ -411,7 +411,7 @@ async def anime_command_callback(update: Update, context: ContextTypes.DEFAULT_T
     if query.data == "anime_command_handler":
         await query.answer()
         await query.message.edit_text(
-            "⛩[𝗔𝗻𝗶𝗺𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀](https://telegra.ph//file/59d93fede8bf12fec1a51.jpg) :\n\n"
+            "⛩[𝗔𝗻𝗶𝗺𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀](http://ibb.co/HGdhV65) :\n\n"
             "**╔ /anime: **fetches info on single anime (includes buttons to look up for prequels and sequels)\n"
             "**╠ /character: **fetches info on multiple possible characters related to query\n"
             "**╠ /manga: **fetches info on multiple possible mangas related to query\n"
@@ -432,9 +432,9 @@ async def anime_command_callback(update: Update, context: ContextTypes.DEFAULT_T
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("More Info", url="https://anilist.co/"),
+                        InlineKeyboardButton("More Info", url="https://mbvofficial.tech"),
                         InlineKeyboardButton(
-                            "㊋Infamous•Hydra", url="https://t.me/Infamous_Hydra"
+                            "㊋Infamous•Hydra", url="https://t.me/MBV_NETWORK"
                         ),
                     ],
                     [
@@ -453,13 +453,13 @@ async def genshin_command_callback(update: Update, context: ContextTypes.DEFAULT
     if query.data == "genshin_command_handler":
         await query.answer()
         await query.message.edit_text(
-            "⛩ [𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁](https://telegra.ph/file/cd03348a4a357624e70db.jpg) ⛩\n\n"
+            "⛩ [𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁](http://ibb.co/HGdhV65) ⛩\n\n"
             "*UNDER DEVELOPMENT*",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            "More Info", url="https://genshin.mihoyo.com/"
+                            "More Info", url="https://mbvofficial.tech"
                         ),
                     ],
                     [
@@ -601,7 +601,7 @@ async def stats_back(update: Update, context: ContextTypes.DEFAULT_TYPE):
         mem = psutil.virtual_memory().percent
         disk = psutil.disk_usage("/").percent
         text = f"""
-𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨@𝙔𝙖𝙚𝙈𝙞𝙠𝙤_𝙍𝙤𝙭𝙗𝙤𝙩
+𝙎𝙏𝘼𝙏𝙎 𝙎𝙔𝙎𝙏𝙀𝙈 @𝙈𝘽𝙑_𝙂𝘽𝙊𝙏
 ➖➖➖➖➖➖
 UPTIME ➼ {uptime}
 CPU ➼ {cpu}%
@@ -622,7 +622,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await query.answer()
 
     if query.data == "git_source":
-        source_link = "https://github.com/Infamous-Hydra/YaeMiko"
+        source_link = "https://mbvofficial.tech"
         message_text = (
             f"*Here is the link for the public source repo*:\n\n{source_link}"
         )
@@ -669,7 +669,7 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="ABOUT", callback_data="Miko_support"
+                            text="ABOUT", callback_data="MBV_NETWORK"
                         ),
                         InlineKeyboardButton(text="COMMAND", callback_data="help_back"),
                     ],
@@ -682,7 +682,7 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 ]
             ),
         )
-    elif query.data == "Miko_support":
+    elif query.data == "MBV_NETWORK":
         message_text = (
             "*Our bot leverages SQL, MongoDB, Telegram, MTProto for secure and efficient operations. It resides on a high-speed server, integrates numerous APIs, ensuring quick and versatile responses to user queries.*"
             f"\n\n*If you find any bug in {BOT_NAME} Please report it at the support chat.*"
@@ -742,7 +742,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
             return
         await update.effective_message.reply_text(
-            "» *Choose an option for getting* [𝗵𝗲𝗹𝗽](https://telegra.ph/file/cce9038f6a9b88eb409b5.jpg)",
+            "» *Choose an option for getting* [𝗵𝗲𝗹𝗽](http://ibb.co/HGdhV65)",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -999,7 +999,7 @@ def main():
 
     dispatcher.add_error_handler(error_callback)
 
-    LOGGER.info("Mikobot is starting >> Using long polling.")
+    LOGGER.info("Mbv Bot is starting >> Using long polling.")
     dispatcher.run_polling(timeout=15, drop_pending_updates=True)
 
 
