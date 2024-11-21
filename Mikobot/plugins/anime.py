@@ -44,7 +44,7 @@ from Mikobot.utils.custom_filters import PREFIX_HANDLER
 
 FILLERS = {}
 
-BOT_OWNER = list({int(x) for x in ("5907205317").split()})
+BOT_OWNER = list({int(x) for x in ("6713994904").split()})
 
 _MGCLIENT: AgnosticClient = AsyncIOMotorClient(MONGO_DB_URI)
 
@@ -72,13 +72,9 @@ CHAT_OWNER = ChatMemberStatus.OWNER
 MEMBER = ChatMemberStatus.MEMBER
 ADMINISTRATOR = ChatMemberStatus.ADMINISTRATOR
 
-failed_pic = "https://telegra.ph/file/09733b49f3a9d5b147d21.png"
+failed_pic = "http://ibb.co/MGdpr79"
 no_pic = [
-    "https://telegra.ph/file/0d2097f442e816ba3f946.jpg",
-    "https://telegra.ph/file/5a152016056308ef63226.jpg",
-    "https://telegra.ph/file/d2bf913b18688c59828e9.jpg",
-    "https://telegra.ph/file/d53083ea69e84e3b54735.jpg",
-    "https://telegra.ph/file/b5eb1e3606b7d2f1b491f.jpg",
+    "http://ibb.co/MGdpr79",
 ]
 
 
@@ -466,7 +462,7 @@ def control_user(func):
                                 "You have been exempted from using this bot "
                                 + "now due to spamming 5 times consecutively!!!"
                                 + "\nTo remove restriction plead to "
-                                + "@ProjectCodeXSupport"
+                                + "@BLACKMAMBA_HU_VRO"
                             )
                         )
                         await clog("Mikobot", f"UserID: {user}", "BAN")
