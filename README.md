@@ -67,4 +67,4 @@ python3 -m Mikobot         # 8. Run the Bot
 
 <h1 align="center">Deploy on Heroku</h1>
 
-<p align="center">Click the button below to deploy YAE ダ MIKO on Heroku and enjoy its enhanced features and user-friendly interface!</p>
+<p align="center">Click the button below to deploy 𝗠𝗕𝗩 on Heroku and enjoy its enhanced features and user-friendly interface!</p>
