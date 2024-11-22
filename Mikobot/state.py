@@ -21,7 +21,8 @@ async def main():
         ARQ_API_URL = "thearq.tech"
         arq = ARQ(ARQ_API_URL, ARQ_API_KEY, session)
 
-        # Use `state` and `arq` as needed...
+        class State:
+          pass
 
 if __name__ == "__main__":
     asyncio.run(main())
