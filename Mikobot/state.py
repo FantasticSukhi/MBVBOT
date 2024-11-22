@@ -17,8 +17,8 @@ async def main():
         )
 
         # ARQ Setup
-        ARQ_API_KEY = "RLWCED-WZASYO-AWOLTB-ITBWTP-ARQ"
-        ARQ_API_URL = "arq.hamker.dev"
+        ARQ_API_KEY = "LLJVZF-FENYVR-BKAKYP-USYLDH-ARQ"
+        ARQ_API_URL = "thearq.tech"
         arq = ARQ(ARQ_API_URL, ARQ_API_KEY, session)
 
         # Use `state` and `arq` as needed...
