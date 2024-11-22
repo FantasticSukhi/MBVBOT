@@ -23,7 +23,7 @@ class Config(object):
     API_HASH = "e5b2ac2f9c37bda345fa9fb5ade66961"
 
     # Database configuration (PostgreSQL)
-    DATABASE_URL = "postgres:"
+    DATABASE_URL = "postgresql://mamba:wuTMOi4GppfcPiJj0a7ajGGHll2xUfRi@dpg-ct03hn68ii6s73fgofh0-a.oregon-postgres.render.com/mbv"
 
     # Event logs chat ID and message dump chat ID
     EVENT_LOGS = -1002138809373
