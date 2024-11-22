@@ -21,7 +21,7 @@ async def main():
         ARQ_API_URL = "thearq.tech"
         arq = ARQ(ARQ_API_URL, ARQ_API_KEY, session)
 
-        class State:
+        class state:
           pass
 
 if __name__ == "__main__":
